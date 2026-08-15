@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senter Kedap-Kedip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Senter Strobe</h1>
+        
+        <div class="status-box">
+            <p>Status: <span id="status">Mati</span></p>
+        </div>
+
+        <div class="control-group">
+            <label for="speed">Kecepatan Kedip (Milidetik):</label>
+            <input type="range" id="speed" min="50" max="1000" value="200" step="50">
+            <span id="speed-value">200 ms</span>
+        </div>
+
+        <button id="toggle-btn" class="btn-start">MULAI</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
